@@ -1,0 +1,52 @@
+﻿body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    color: red;
+    font-size: 1.5em;
+}
+
+.one h2 + p {
+    color: deeppink;
+}
+
+#two h2 + p {
+    color: darkorange;
+}
+
+div + p {
+    color: purple;
+}
+
+.some p {
+    text-indent: 25px;
+    color: deepskyblue;
+}
+
+    .some p + p {
+        text-indent: 25px;
+        color: yellow;
+    }
+
+.some_two p {
+    text-indent:25px;
+    color: deepskyblue;
+}
+
+    .some_two p + p {
+
+        color: forestgreen;
+    }
+
+div + p + p {
+    color: magenta;
+}
+
+.some + p + p {
+    color: dimgrey;
+}

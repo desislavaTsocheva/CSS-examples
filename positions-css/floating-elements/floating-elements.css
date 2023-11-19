@@ -1,0 +1,24 @@
+﻿body
+{
+    
+}
+.left, .rigth, .center{
+    width:120px;
+    height:30px;
+    padding:10px;
+    text-align:center;
+    background-color:cornflowerblue;
+    border-radius:8px;
+    text-shadow:1px 1px 5px white;
+}
+.left{
+    float:left;
+    margin-right:10px;
+}
+.rigth{
+    float:right;
+    margin-left:10px;
+}
+.center{
+    margin:0 auto;
+}

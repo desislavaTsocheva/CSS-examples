@@ -1,0 +1,36 @@
+﻿body {
+    font-family: "Lato", sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#ccc;
+}
+nav#topmenu {
+    list-style: none;
+    background-color: #84b3ad;
+    text-align: center;
+    padding: 0;
+}
+nav#topmenu li{
+    font-size:24px;
+    line-height:40px;
+    height:40px;
+    display:inline-block;
+    padding:20px;
+}
+nav#topmenu a{
+    text-decoration:none;
+    color:#fff;
+}
+#topmenu a:hover {
+    color: white;
+    padding: 5px 0;
+    background-color:#135e3e;
+}
+li {
+    Width: 100px;
+    Margin: 0 5px;
+    Padding: 5px 0;
+    Cursor: pointer;
+    color: #ffffff;
+    text-align:center;
+}
